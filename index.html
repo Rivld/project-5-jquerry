@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Jquery</title>
+    <link href="css/style.css" rel="stylesheet"/>
 </head>
-
 <body>
 
-    <p>click to hide</p>
+    <p>Click To Hide</p>
 
-    <div id="hideThis">Hola</div>
-
-    <br>
-
-    <div class="dbl_Click">double click here</div>
+    <div id="hideThis" style="display: none;">Hola</div>
 
     <br>
 
-    <button id="btnShow">show</button>  <button id="btnHide">hide</button>
+    <div class="dbl_Click">Double Click Here</div>
+
+    <br>
+
+    <button id="btnShow">Show</button> <button id="btnHide">Hide</button> <button id="toggle">+</button>
+
+    <br><br>
+
+    <button id="clickToBig">Expand Size</button> <button id="clickToSmall">Reset Size</button>
 
     <br><br>
 
     <div class="box"></div>
 
+    <br><br>
+
+    <label>Input Name</label><br><br>
+    <input class="inputName" type="text"/>
+    <p class="alert-name" style="display: none; color: red;">Nama harus sesuai format</p>
+
+    <br><br>
+
+    <label>Input Address</label><br><br>
+    <input class="inputAddress" type="text"/>
+    <p class="alert-address" style="display: none; color: red;">Alamat tidak boleh kosong</p>
+
+    <br><br>
+    <a href="http://www.google.com">Go to Google</a>
+
+    <br><br>
+    <p>Mouse Position: <span class="pointerCount"></span></p>
+
+    <br><br>
+    <button class="text">Hello</button>
+    <button class="text2">Activate</button>
+
+
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="index.js"></script>
-
+    <script src="js/index.js"></script>
 </body>
-
 </html>

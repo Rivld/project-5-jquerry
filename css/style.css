@@ -1,0 +1,44 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background: green;
+}
+
+.disabled{
+    display: none;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    background: #dedede;
+}
+
+.product-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item img{
+    width: 70%;
+}
+
+.product-colors{
+    display: flex;
+    gap: 30px;
+}
+
+.product-colors li{
+    list-style: none;
+}
+
+.product-colors li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #dedede;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0px;
+}
